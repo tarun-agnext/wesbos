@@ -459,7 +459,7 @@ If you try to just leave the argument empty and use two commas like shown above 
 
 So the only thing that you can pass into a function to cause it to use the default is **undefined**. A function will only ever fall back to the defaults if nothing is passed.
 
-Remember when a variable is not set to anything, its value is `undefined`. So you cannot go ahead and pass zero here and expect it to false back to the default.
+Remember when a variable is not set to anything, its value is `undefined`. So you cannot go ahead and pass zero here and expect it to fall back to the default.
 
 ```js
 const myBill4 = calculateBill(100, undefined, 0.2);
